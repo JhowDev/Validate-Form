@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+ 
+  <section>
+    <form class="form-sign-in">
+      <h2>Login</h2>
+      <div class="name-container">
+        <div class="input-container">
+          <label for="name">Nome</label>
+          <input class="input" name="name" id="name" type="text">
+          <div class="errors">
+
+          </div>
+        </div>
+        <div class="input-container">
+          <label for="last-name">Sobrenome</label>
+          <input class="input" name="last-name" id="last-name" type="text">
+          <div class="errors">
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="input-container">
+        <label for="email">E-mail</label>
+        <input class="input" name="email" id="email" type="email">
+        <div class="errors">
+            
+        </div>
+      </div>
+
+      <div class="input-container">
+        <label for="password">Senha</label>
+        <input class="input" name="password" id="password" type="password">
+        <div class="errors">
+            
+        </div>
+      </div>
+
+      <div class="checkbox-container">
+        <div>
+          <button class="checkbox" type="button">
+            <img class="check-img" src="assets/img/check.png" alt="check">
+          </button>
+          <span>Lembre de mim</span>
+        </div>
+        <a href="#">Esqueci senha</a>
+      </div>
+
+      <button class="form-button" type="submit">Entrar</button>
+    </form>
+  </section>
+
+  <script src="assets/js/field-behavior.js"></script>
+  <script src="assets/js/validate-form.js"></script>
+</body>
+</html>
